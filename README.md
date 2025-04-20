@@ -34,15 +34,5 @@ Este repositorio contiene mi recorrido de aprendizaje de JavaScript, cubriendo l
 - ✅ Módulos
 
 ## Ejercicios 💻
-Cada tema incluye ejercicios prácticos para reforzar el aprendizaje. Los archivos están organizados por carpetas según el tema.
+Cada tema incluye ejercicios prácticos para reforzar el aprendizaje.
 
-## Cómo usar este repositorio �
-1. Clona el repositorio
-2. Explora las carpetas por tema
-3. Cada sección contiene:
-   - Explicaciones teóricas
-   - Ejemplos de código
-   - Ejercicios propuestos
-
-## Contribuciones 🤝
-Siéntete libre de sugerir mejoras o correcciones a través de pull requests.
