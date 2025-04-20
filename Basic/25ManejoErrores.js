@@ -1,44 +1,75 @@
-let objeto
-//console.log(objeto.name)
+//Manejo de errores (excepciones)
+//gestionar errores para que si se produce continuar con el programa (que no rompa el programa)
 
-//errores
+
 
 //try catch
+let objeto
 
 try {
-    console.log(objeto.name)
+    console.log(objeto.nombre)
 } catch (error) {
-    console.log("Error: ",error.message)
+    console.warn("Hay un error")
+    
 }
 
+//capturar el error
+try {
+    console.log(objeto.email)
+} catch (error) {
+    console.warn("Hay un error",error.message)
+    
+}
 
 try {
-    console.log(objeto.name)
+    console.log(objeto.saludo)
 } catch (error) {
-    console.log("Error: ",error.message)
-}finally{// continua con error si o si
-    console.log("S")
+    console.warn("Hay un error",error.message)
+    
+}finally{//se ejecuta si o si
+    console.log("Bienvenido")
 }
-
+//lanzar errores
 //throw
-//throw new Error("Errooooor");
-
-function sum(a,b){
-    if(!Number.isInteger(a) || !Number.isInteger(b)){
-        throw new Error("No se suma")
+function sum(a,b) {
+    if((typeof a!=="number") ||(typeof b!=="number") ){
+        throw new TypeError("No se pueden sumar")
+    }else{
+        return a+b
     }
-    return a+b
 }
 try {
-    console.log(sum("3",10))    
+    console.log(sum("5",10))    
 } catch (error) {
-    console.log("Se produjo un error: ",error.message)
+    if(error instanceof TypeError){
+        console.warn("Esto es un nuevo error de tipo ",error.message)
+    }else if(error instanceof Error){
+        console.warn("Esto es un nuevo error",error.message)
+}
 }
 
-class error extends Error{
+//excepciones personalizadas
+function suma2(a,b) {
+    if(a===0 ){
+        throw new Sum2("Se esta pasando un CERO")
+    }else{
+        return a+b
+    }
+}
+class Sum2 extends Error{
     constructor(message,a,b){
         super(message)
         this.a=a
         this.b=b
     }
+    print(){
+        console.log(a)
+    }
+}
+
+try {
+    console.log(suma2(0,4))
+    
+} catch (error) {
+    console.log("Se esta produciendo un error ",error.message)
 }
