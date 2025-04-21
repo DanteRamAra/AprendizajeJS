@@ -28,27 +28,27 @@ Programación Funcional
 
 Conceptos cubiertos:
 
-Spread
-
-Rest
-
-Funciones como ciudadanos de primer nivel
-
-Funciones flecha (arrow functions)
-
-Callbacks
-
-Closures
-
-Funciones parciales
-
-Currying
-
-Conceptos a reforzar:
-
-IIFE (Immediately Invoked Function Expression)
-
-this léxico
+  Spread
+  
+  Rest
+  
+  Funciones como ciudadanos de primer nivel
+  
+  Funciones flecha (arrow functions)
+  
+  Callbacks
+  
+  Closures
+  
+  Funciones parciales
+  
+  Currying
+  
+  Conceptos a reforzar:
+  
+  IIFE (Immediately Invoked Function Expression)
+  
+  this léxico
 
 ✅ Objetos
 
