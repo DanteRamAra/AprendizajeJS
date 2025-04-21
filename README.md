@@ -1,38 +1,73 @@
-# Aprendizaje de JavaScript desde 0 📚
-
+Aprendizaje de JavaScript desde 0 📚
 Este repositorio contiene mi recorrido de aprendizaje de JavaScript, cubriendo los conceptos fundamentales del lenguaje junto con ejercicios prácticos para cada tema.
 
-## Temas cubiertos 🗂️
+Temas cubiertos 🗂️
+Fundamentos
+✅ Variables
 
-### Fundamentos
-- ✅ Variables
-- ✅ Tipos de Datos
-- ✅ Operadores
+✅ Tipos de Datos
 
-### Estructuras de control
-- ✅ Condicionales
-- ✅ Bucles
+✅ Operadores
 
-### Manejo de datos
-- ✅ Strings
-- ✅ Array
-- ✅ Set
-- ✅ Map
+Estructuras de Control
+✅ Condicionales
 
-### Programación funcional
-- ✅ Funciones
-- ✅ Objetos
-- ✅ Desestructuración y prolongación (spread/rest)
+✅ Bucles
 
-### Programación orientada a objetos
-- ✅ Clases
-- ✅ Herencia
+Manejo de Datos
+✅ Strings
 
-### Otros conceptos importantes
-- ✅ Manejo de Errores (excepciones)
-- ✅ Console
-- ✅ Módulos
+✅ Arrays
 
-## Ejercicios 💻
+✅ Sets
+
+✅ Maps
+
+Programación Funcional
+✅ Funciones
+
+Conceptos cubiertos:
+
+Spread
+
+Rest
+
+Funciones como ciudadanos de primer nivel
+
+Funciones flecha (arrow functions)
+
+Callbacks
+
+Closures
+
+Funciones parciales
+
+Currying
+
+Conceptos a reforzar:
+
+IIFE (Immediately Invoked Function Expression)
+
+this léxico
+
+✅ Objetos
+
+✅ Desestructuración y prolongación (spread/rest)
+
+Programación Orientada a Objetos
+✅ Clases
+
+✅ Herencia
+
+Otros conceptos importantes
+✅ Manejo de Errores (excepciones)
+
+✅ Uso de console
+
+✅ Módulos
+
+Ejercicios 💻
 Cada tema incluye ejercicios prácticos para reforzar el aprendizaje.
 
+Agradecimientos 🙌
+Gracias a MoureDev por el excelente curso.
