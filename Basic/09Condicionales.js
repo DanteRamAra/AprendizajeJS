@@ -1,6 +1,13 @@
 //condicionales
 //if, else if,else
 //if
+
+/*
+SI CONDICION
+    ENTONCES
+SINO
+    ENTONCES
+*/
 let edad=18
 if (edad>=18) {
     console.log("Mayor de edad")
@@ -16,7 +23,15 @@ if (edad>=25) {
 
 
 //else if
-
+/*
+SI CONDICION
+    ENTONCES
+SINO CONDICION
+    ENTONCES
+SINO
+    ENTONCES
+    
+*/
 if (edad==21) {
     console.log("La edad es la de dante")
 } else if(edad>=18){
@@ -26,7 +41,7 @@ if (edad==21) {
 }
 
 //operador ternario
-
+//CONDICION?SE CUMPLE:NO SE CUMPLE
 const msj=edad==18 ?"Mayoooor de edad" : "Menor"
 
 console.log(msj)

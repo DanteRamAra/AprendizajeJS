@@ -3,7 +3,7 @@
 let nombre="Dantesote"
 let alias="Darth"
 let email="danterara@gmail.com"
-
+//No es necesario especificar el tipo de dato, el lenguaje lo hace por si solo en la declaracion
 //numeros
 let age=37 //entero
 let height=1.70//decimal

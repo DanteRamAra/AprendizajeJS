@@ -1,4 +1,11 @@
 //Estas son funciones avanzadas
+/*
+ciudadanos de primer nivel, basicamente pasar la funcion como parametro a otra,asignarlas a variables o retornarlas 
+currificacion: En vez de recibir muchos datos en una funcion, recibe uno por uno, se trabaja sobre el primer dato que se repite, digamos que es la base
+funciones parciales: se divide por partes el recibimiento de datos, ademas se trabaja sobre los primeros datos que recibe la funcion princial
+callback: una funcion es capaz de mandar a llamar a otra funcion pasando un argumento o dato a la que llama, en 
+la invocacion se pasa la data y el nombre de la funcion secundaria
+*/
 const greet=function (name){
     console.log(`Hola ${name}`)
 }

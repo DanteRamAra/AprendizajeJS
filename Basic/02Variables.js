@@ -14,6 +14,6 @@ es mejor, no nos deja acceder a la variable antes de que se de un valor
 */
 let holaMundo2="Hola mundote con let"
 console.log(holaMundo2)
-//const no se puede asignar nuevo valor despues de la declaracion es constANTE
+//const no se puede asignar nuevo valor despues de la declaracion es CONSTante
 const holaMundo3="Hola mundote con const"
 console.log(holaMundo3)

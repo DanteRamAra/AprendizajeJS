@@ -88,7 +88,7 @@ console.log(persona5.bank)
 persona5=("78999999")
 console.log("aa")
 console.log(persona5)
-//por algun motivo muestra todo esta mierda
+//por algun motivo muestra todo 
 
 //herencia
 

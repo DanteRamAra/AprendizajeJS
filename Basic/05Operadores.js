@@ -54,5 +54,5 @@ console.log(!(5>10 && 15>20))
 
 //ternarios
 const llueve=false
-
+//apartir de una variable,true  pasa algo: false pasa otro algo 
 llueve ? console.log("LLueve"):console.log("no llueve")
