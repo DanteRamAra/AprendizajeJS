@@ -39,14 +39,17 @@ manejador.greeting()
 manejador.arrowgreeting();
 
 //IIFE (EXPRESION DE FUNCION INVOCADA INMEDIATAMENTE)
-//IIFE CLASICO
+//IIFE CLASICO se ejecutan enseguida
 (function(){//no se llaman por nombre
     console.log("IIFE CLASICO")
 })();
-(()=>{
+(()=>{//IIFE ARROW
     console.log("IIFE FLECHA")
 })();
-//parametros rest(...)visto en tema de desestructuracion
+//parametros rest(...)visto en tema de desestructuracion 
+/*
+rest pasa variables por partes y permite mostrar la informacion parseada
+*/
 function sum(...numbers){
     let resultado=0
     for (let number of numbers) {
