@@ -57,4 +57,48 @@ console.log(array5.find(element=> element%2==0))
 
 //findIndex
 //lo mismo que find pero da la posicion no el elemento
-console.log(array5.findIndex(element=> element%2==0))
+console.log(array5.findIndex(element=> element%2==0))//si no encuentra nada da -1 siempre retorna un numero
+
+
+//Sets avanzados
+//UNION
+const set=new Set([1,2,3])
+const set2=new Set([3,4,5,6])
+const union=new Set([...set,...set2])
+console.log(union)
+
+//interseccion
+const inter = new Set([...set].filter(element => set2.has(element)))
+
+console.log(inter)
+//diferencia
+const diff=new Set([[...set].filter(element=>!set2.has(element))])
+console.log(diff)
+//set a array
+console.log([...set])
+
+//iterar
+for (const element of set) {
+    console.log(element)
+}
+
+set.forEach(element => console.log(element));
+
+//MAPS AVANZADOS
+const map=new Map([["name","dante"],["age",21]])
+
+//iterar
+map.forEach((value, key) =>console.log(`${key} : ${value}`));
+
+//conversion
+const arrayFromMap = Array.from(map)
+console.log(arrayFromMap)
+
+//map a obj
+const obj=Object.fromEntries(map)
+console.log(obj)
+
+//obj a map
+
+const map2=new Map(Object.entries(obj))
+console.log(map2)
