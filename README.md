@@ -18,8 +18,15 @@ Este repositorio contiene mi recorrido de aprendizaje de JavaScript, cubriendo l
 ### **Manejo de Datos**  
 ✅ Strings  
 ✅ Arrays  
-✅ Sets  
-✅ Maps  
+✅ **Sets**  
+  - Filtrado de elementos (`filter` usando `Array.from` o spread).  
+  - Operaciones entre Sets (unión, intersección, diferencia).  
+✅ **Maps**  
+  - Conversiones clave:  
+    - `Map` a `Objeto` (`Object.fromEntries`).  
+    - `Objeto` a `Map` (constructor `new Map(Object.entries(obj))`).  
+    - `Map` a `Array` (`Array.from(map)` o spread `[...map]`).  
+  - Iteración avanzada (`.entries()`, `.keys()`, `.values()`).  
 
 ### **Programación Funcional**  
 ✅ Funciones  
@@ -35,16 +42,9 @@ Este repositorio contiene mi recorrido de aprendizaje de JavaScript, cubriendo l
 - IIFE (Immediately Invoked Function Expression)  
 - `this` léxico  
 - Métodos de arrays:  
-  - `findIndex`  
-  - `find`  
-  - `includes`  
-  - `reverse`  
-  - `sort`  
-  - `flatMap`  
-  - `flat`  
-  - `reduce`  
-  - `filter`  
-  - `map`  
+  - `findIndex` | `find` | `includes`  
+  - `reverse` | `sort` | `flatMap` | `flat`  
+  - `reduce` | `filter` | `map`  
 
 ✅ Objetos  
 ✅ Desestructuración y prolongación (spread/rest)  
@@ -61,9 +61,11 @@ Este repositorio contiene mi recorrido de aprendizaje de JavaScript, cubriendo l
 ---
 
 ## Ejercicios 💻  
-Cada tema incluye ejercicios prácticos para reforzar el aprendizaje.
+Cada tema incluye ejercicios prácticos para reforzar el aprendizaje, como:  
+- Operaciones entre `Sets`.  
+- Conversiones entre `Map`, `Array` y `Objeto`.  
 
 ---
 
 ## Agradecimientos 🙌  
-¡Gracias a **MoureDev** por el excelente curso! 🚀
+¡Gracias a **MoureDev** por el excelente curso! 🚀  
