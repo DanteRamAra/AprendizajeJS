@@ -1,73 +1,69 @@
-Aprendizaje de JavaScript desde 0 📚
+# Aprendizaje de JavaScript desde 0 📚  
+
 Este repositorio contiene mi recorrido de aprendizaje de JavaScript, cubriendo los conceptos fundamentales del lenguaje junto con ejercicios prácticos para cada tema.
 
-Temas cubiertos 🗂️
-Fundamentos
-✅ Variables
+---
 
-✅ Tipos de Datos
+## Temas cubiertos 🗂️  
 
-✅ Operadores
+### **Fundamentos**  
+✅ Variables  
+✅ Tipos de Datos  
+✅ Operadores  
 
-Estructuras de Control
-✅ Condicionales
+### **Estructuras de Control**  
+✅ Condicionales  
+✅ Bucles  
 
-✅ Bucles
+### **Manejo de Datos**  
+✅ Strings  
+✅ Arrays  
+✅ Sets  
+✅ Maps  
 
-Manejo de Datos
-✅ Strings
+### **Programación Funcional**  
+✅ Funciones  
+📌 Conceptos cubiertos:  
+- Spread  
+- Rest  
+- Funciones como ciudadanos de primer nivel  
+- Funciones flecha (arrow functions)  
+- Callbacks  
+- Closures  
+- Funciones parciales  
+- Currying  
+- IIFE (Immediately Invoked Function Expression)  
+- `this` léxico  
+- Métodos de arrays:  
+  - `findIndex`  
+  - `find`  
+  - `includes`  
+  - `reverse`  
+  - `sort`  
+  - `flatMap`  
+  - `flat`  
+  - `reduce`  
+  - `filter`  
+  - `map`  
 
-✅ Arrays
+✅ Objetos  
+✅ Desestructuración y prolongación (spread/rest)  
 
-✅ Sets
+### **Programación Orientada a Objetos**  
+✅ Clases  
+✅ Herencia  
 
-✅ Maps
+### **Otros conceptos importantes**  
+✅ Manejo de Errores (excepciones)  
+✅ Uso de `console`  
+✅ Módulos  
 
-Programación Funcional
-✅ Funciones
+---
 
-Conceptos cubiertos:
-
-  Spread
-  
-  Rest
-  
-  Funciones como ciudadanos de primer nivel
-  
-  Funciones flecha (arrow functions)
-  
-  Callbacks
-  
-  Closures
-  
-  Funciones parciales
-  
-  Currying
-  
-  Conceptos a reforzar:
-  
-  IIFE (Immediately Invoked Function Expression)
-  
-  this léxico
-
-✅ Objetos
-
-✅ Desestructuración y prolongación (spread/rest)
-
-Programación Orientada a Objetos
-✅ Clases
-
-✅ Herencia
-
-Otros conceptos importantes
-✅ Manejo de Errores (excepciones)
-
-✅ Uso de console
-
-✅ Módulos
-
-Ejercicios 💻
+## Ejercicios 💻  
 Cada tema incluye ejercicios prácticos para reforzar el aprendizaje.
 
-Agradecimientos 🙌
-Gracias a MoureDev por el excelente curso.
+---
+
+## Agradecimientos 🙌  
+¡Gracias a **MoureDev** por el excelente curso! 🚀
