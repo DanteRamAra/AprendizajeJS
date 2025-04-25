@@ -43,13 +43,19 @@ Conceptos cubiertos:
   Funciones parciales
   
   Currying
-  
-  Conceptos a reforzar:
-  
   IIFE (Immediately Invoked Function Expression)
   
   this léxico
-
+  -finindex
+-find
+-includes
+-reverse
+-sort
+-flatMap
+-flat
+-reduce
+-filter
+-map
 ✅ Objetos
 
 ✅ Desestructuración y prolongación (spread/rest)
