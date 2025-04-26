@@ -1,71 +1,31 @@
-# Aprendizaje de JavaScript desde 0 📚  
+# 🚀 Aprendizaje de JavaScript desde Cero
 
-Este repositorio contiene mi recorrido de aprendizaje de JavaScript, cubriendo los conceptos fundamentales del lenguaje junto con ejercicios prácticos para cada tema.
+![JavaScript Logo](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![GitHub](https://img.shields.io/github/license/tu-usuario/tu-repo?color=blue&style=for-the-badge)
 
----
+Repositorio con mi viaje de aprendizaje en JavaScript, desde fundamentos hasta patrones avanzados, con ejemplos prácticos y ejercicios.
 
-## Temas cubiertos 🗂️  
+## 📚 Índice de Contenidos
 
-### **Fundamentos**  
-✅ Variables  
-✅ Tipos de Datos  
-✅ Operadores  
+### 🔍 Fundamentos Esenciales
+- ✔️ Variables (`let`, `const`, `var`)
+- ✔️ Tipos de Datos (primitivos y objetos)
+- ✔️ Operadores (aritméticos, lógicos, comparación)
 
-### **Estructuras de Control**  
-✅ Condicionales  
-✅ Bucles  
+### 🎮 Estructuras de Control
+- ✔️ Condicionales (`if/else`, `switch`)
+- ✔️ Bucles (`for`, `while`, `do-while`)
 
-### **Manejo de Datos**  
-✅ Strings  
-✅ Arrays  
-✅ **Sets**  
-  - Filtrado de elementos (`filter` usando `Array.from` o spread).  
-  - Operaciones entre Sets (unión, intersección, diferencia).  
-✅ **Maps**  
-  - Conversiones clave:  
-    - `Map` a `Objeto` (`Object.fromEntries`).  
-    - `Objeto` a `Map` (constructor `new Map(Object.entries(obj))`).  
-    - `Map` a `Array` (`Array.from(map)` o spread `[...map]`).  
-  - Iteración avanzada (`.entries()`, `.keys()`, `.values()`).  
+### 🧩 Manejo de Datos
+| Tema       | Características |
+|------------|----------------|
+| **Strings** | Métodos, templates literales |
+| **Arrays**  | Manipulación, métodos funcionales |
+| **Sets**    | Operaciones matemáticas, filtrado |
+| **Maps**    | Conversiones, iteración avanzada |
 
-### **Programación Funcional**  
-✅ Funciones  
-📌 Conceptos cubiertos:  
-- Spread  
-- Rest  
-- Funciones como ciudadanos de primer nivel  
-- Funciones flecha (arrow functions)  
-- Callbacks  
-- Closures  
-- Funciones parciales  
-- Currying  
-- IIFE (Immediately Invoked Function Expression)  
-- `this` léxico  
-- Métodos de arrays:  
-  - `findIndex` | `find` | `includes`  
-  - `reverse` | `sort` | `flatMap` | `flat`  
-  - `reduce` | `filter` | `map`  
-
-✅ Objetos  
-✅ Desestructuración y prolongación (spread/rest)  
-
-### **Programación Orientada a Objetos**  
-✅ Clases  
-✅ Herencia  
-
-### **Otros conceptos importantes**  
-✅ Manejo de Errores (excepciones)  
-✅ Uso de `console`  
-✅ Módulos  
-
----
-
-## Ejercicios 💻  
-Cada tema incluye ejercicios prácticos para reforzar el aprendizaje, como:  
-- Operaciones entre `Sets`.  
-- Conversiones entre `Map`, `Array` y `Objeto`.  
-
----
-
-## Agradecimientos 🙌  
-¡Gracias a **MoureDev** por el excelente curso! 🚀  
+### ⚙️ Programación Funcional
+```javascript
+// Ejemplo: Arrow Functions + Map
+const numbers = [1, 2, 3];
+const squared = numbers.map(n => n ** 2);
