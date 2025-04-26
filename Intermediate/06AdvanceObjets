@@ -1,0 +1,69 @@
+//PROTOTIPOS Y HERENCIA
+
+
+//PROTOTIPOS
+let person={
+    name:"Dante",
+    age:21,
+    greet(){
+        console.log(`hola soy ${this.name}`)
+    }
+}
+console.log(person.__proto__)
+console.log(Object.getPrototypeOf(person))
+
+person.sayAge=function(){
+    console.log(`Tengo ${this.age}`)
+}
+person.sayAge()
+
+//heredar
+//basada en prototipos
+let programmer=Object.create(person)
+programmer.name="ISRAEL"
+programmer.age=22
+programmer.language="Spanish"
+console.log(programmer)
+programmer.sayAge()
+programmer.greet()
+
+
+//metodos estaticos y de instancia
+
+function Person(name, age) {
+    this.name = name
+    this.age = age
+}
+
+Person.prototype.greet = function () {
+    console.log(`Hola, soy ${this.name}`)
+}
+
+let newPerson = new Person("Brais", 37)
+newPerson.greet()
+
+//metodos avanzados
+
+//assign
+let personCore={name:"ISRAEL",age:21}
+let person2={age:22,alias:"Darth"}
+
+let fullPerson=Object.assign(personCore,person2)
+console.log(fullPerson)
+
+//keys, values, entries
+//clave, valor y entradas
+
+console.log(Object.keys(fullPerson))
+console.log(Object.values(fullPerson))
+console.log(Object.entries(fullPerson))
+
+
+
+
+
+
+
+
+
+
